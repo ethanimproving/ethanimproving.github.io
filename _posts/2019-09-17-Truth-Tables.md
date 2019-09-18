@@ -1,5 +1,7 @@
 A simple blog post to explore the 16 possible [boolean operators](https://en.wikipedia.org/wiki/Truth_table).
 
+Click [here](https://stackoverflow.com/questions/11947553/java-expression-parsing-evaluating-library) for a reference to the corresponding Java operators.
+
 ## 1. NOT Operator
 
 | a | !a |
