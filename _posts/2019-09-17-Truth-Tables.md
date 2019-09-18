@@ -1,4 +1,4 @@
-A simple blog post to explore the 16 possible boolean operators.
+A simple blog post to explore the 16 possible [boolean operators](https://en.wikipedia.org/wiki/Truth_table).
 
 ## 1. NOT Operator
 
@@ -145,11 +145,11 @@ A simple blog post to explore the 16 possible boolean operators.
 ## [Jekyll Tables](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html)
 
  Column1    Column2   result 
- ----------------
- t            f        true   
- f            f        true   
- t            t        true   
- f            t        true  
+ ------------------------------
+ true        false     true
+ false       false     true
+ true        true      true
+ false       true      true
 
 ---
 layout: post
