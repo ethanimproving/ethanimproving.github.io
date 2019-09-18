@@ -27,7 +27,7 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 4. Exclusive OR Operator
 
-| a     | b     | XOR |
+| a     | b     | a ^ b |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | true       |
@@ -36,7 +36,7 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 5. Contradiction
 
-| a     | b     | false |
+| a     | b     | result |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | false      |
@@ -45,7 +45,7 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 6. Joint Denial
 
-| a     | b     | NOR |
+| a     | b     | !(a &#124;&#124; b) |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | false      |
@@ -54,16 +54,16 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 7. Converse Nonimplication
 
-| a     | b     | ↚ |
+| a     | b     | a </- b |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | false      |
 | false | true  | true       |
 | false | false | false      |
 
-## 8. Negation
+## 8. Negation of A
 
-| a     | b     |  ¬p |
+| a     | b     |  !a |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | false      |
@@ -72,16 +72,16 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 9. Material Nonimplication
 
-| a     | b     |  ↛ |
+| a     | b     |  a -/> b |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | true       |
 | false | true  | false      |
 | false | false | false      |
 
-## 10. Logical Complement
+## 10. Negation of B
 
-| a     | b     |  ¬p |
+| a     | b     |  !b |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | true       |
@@ -90,16 +90,16 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 11. Sheffer Stroke
 
-| a     | b     |  NAND |
+| a     | b     |  !(a && b) |
 |-------|-------|------------|
 | true  | true  | false      |
 | true  | false | true       |
 | false | true  | true       |
 | false | false | true       |
 
-## 12. Projection
+## 12. Projection of B
 
-| a     | b     |  q |
+| a     | b     |  b |
 |-------|-------|------------|
 | true  | true  | true       |
 | true  | false | false      |
@@ -108,25 +108,25 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 13. Material Condition
 
-| a     | b     |  → |
+| a     | b     |  a –> b |
 |-------|-------|------------|
 | true  | true  | true       |
 | true  | false | false      |
 | false | true  | true       |
 | false | false | true       |
 
-## 14. Projection
+## 14. Projection of A
 
-| a     | b     |  p |
+| a     | b     |  a |
 |-------|-------|------------|
 | true  | true  | true       |
-| true  | false | false      |
-| false | true  | true       |
-| false | false | true       |
+| true  | false | true       |
+| false | true  | false      |
+| false | false | false      |
 
 ## 15. Converse Implication
 
-| a     | b     |  ← |
+| a     | b     |  a <– b |
 |-------|-------|------------|
 | true  | true  | true       |
 | true  | false | true       |
@@ -135,7 +135,7 @@ A simple blog post to explore the 16 possible boolean operators.
 
 ## 16. Tautology
 
-| a     | b     |  true |
+| a     | b     |  result |
 |-------|-------|------------|
 | true  | true  | true       |
 | true  | false | true       |
@@ -143,6 +143,13 @@ A simple blog post to explore the 16 possible boolean operators.
 | false | false | true       |
 
 ## [Jekyll Tables](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html)
+
+ Column1    Column2   result 
+ ----------------
+ t            f        true   
+ f            f        true   
+ t            t        true   
+ f            t        true  
 
 ---
 layout: post
