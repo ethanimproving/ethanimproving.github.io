@@ -139,5 +139,30 @@ A simple blog post to explore the 16 possible boolean operators.
 |-------|-------|------------|
 | true  | true  | true       |
 | true  | false | true       |
-| false | true  | true      |
+| false | true  | true       |
 | false | false | true       |
+
+## [Jekyll Tables](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html)
+
+---
+layout: post
+title: You're up and running!
+---
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
+
+<div class="datatable-begin"></div>
+
+Food    | Description                           | Category | Sample type
+------- | ------------------------------------- | -------- | -----------
+Apples  | A small, somewhat round ...           | Fruit    | Fuji
+Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
+Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
+Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
+
+<div class="datatable-end"></div>
