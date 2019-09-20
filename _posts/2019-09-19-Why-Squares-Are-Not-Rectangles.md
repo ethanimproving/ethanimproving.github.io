@@ -17,7 +17,7 @@ The expected behavior is that when we invoke `changeHeight`, the `height` proper
 
 ## Restore master branch to initial commit
 
-Today when I tried to `git checkout master` to clear my current branches changes from my working branch, I recieved the following error:
+Today when I tried to `git checkout master` to clear my answers from my working branch, I recieved the following error:
 
 ``` bash
 C:\source\JSquire>git checkout master
@@ -71,7 +71,9 @@ He explained that `Freezer > Ice Maker > Ice` is an example of `has` rather than
 
 `Lemonade > Drink > Consumables`
 
-Our local repositroy has a master branch. Our remote repository (Origin) has a master branch. = 
+## Random Notes
+
+Our local repositroy has a master branch. Our remote repository (Origin) has a master branch.
 
 ``` bash
 # Show remote repositories (associated links)
@@ -99,24 +101,9 @@ Today was the first time in over 10 years that I've used a Microwave. I brought 
 
 Rachel accomplished her homework early by Googling, "Why a square and a rectangle is a bad example of class inheritence." I'm anxious to hear the answer from the horses mouth. Ben and Thomas both knew immediately why. As far as I can tell, all things that are true about a rectangle are true about a square.
 
-We need it to come after all of them, but this will come after each of them.
+### Pro Tip!
 
 Extract Method with `Ctrl + Alt + M`.
-
-``` java
-private final LookCommand lCmd;
-private final DanceCommand dCmd;
-private final InventoryCommand iCmd;
-private final JumpCommand jCmd;
-
-public Game() {
-    this.lCmd = new LookCommand();
-    this.dCmd = new DanceCommand();
-    this.iCmd = new InventoryCommand();
-    this.jCmd = new JumpCommand();
-    commands = new BaseEmoteCommand[] {lCmd, dCmd, iCmd, jCmd};
-}
-```
 
 ## Interfaces allow polymorphism
 
